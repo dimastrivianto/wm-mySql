@@ -5,6 +5,7 @@ const conn = mysql.createConnection({
     password: 'mysql123',
     host: 'localhost',
     database: 'bks_mysql',
+    //ada nilai defaultnya (sehingga kalau tidak dikasih tidak apa-apa)
     port: 3306
 })
 
